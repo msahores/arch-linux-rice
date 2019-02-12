@@ -12,4 +12,3 @@ Change it there for the required one.
 Also installed:
 i3-gaps i3-status rxvt-unicode dmenu network-manager-applet
 
-.gitignore ignored
