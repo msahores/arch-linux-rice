@@ -12,7 +12,8 @@ Xft.hintstyle:              hintslight
 # Color settings (Solarized dark)
 #################################
 
-*background: #002b36
+#*background: #002b36
+*background: #00020312
 *foreground: #657b83
 !!*fading: 40
 *fadeColor: #002b36
@@ -78,11 +79,13 @@ URxvt*shading: 15
 
 URxvt*saveLines: 12000
 
-URxvt*foreground: #657b83
-URxvt*background: #002b36
+#font color:
+URxvt*foreground: #CCCCCC
+#background color:
+URxvt*background: #000203
 
 # Monaco Linux font
-URxvt*font: xft:Monaco:pixelsize=15
+URxvt*font: xft:Monaco:pixelsize=18
 URxvt*boldFont: xft:Monaco:bold:pixelsize=15
 URxvt*letterSpace: -1
 
