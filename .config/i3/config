@@ -23,6 +23,9 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
+# start a browser
+bindsym $mod+Shift+f exec firefox
+
 # kill focused window
 bindsym $mod+q kill
 

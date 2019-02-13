@@ -54,4 +54,10 @@ sudo gpasswd -a *username* audio
 alsamixer -> config mixer
 
 I've also needed pulseaudio for using browser audio
-And pulse mixer to controll it trough there 
+And pulse mixer to controll it trough there
+
+**Trackpad**
+pacman -Syu xf86-input-synaptics 
+
+**4 multiple Monitors**
+arandr (gui for "xarandr(?")
