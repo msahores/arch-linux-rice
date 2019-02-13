@@ -41,4 +41,17 @@ sudo systemctl enable NetworkManager.service
 ```
 sudo systemctl disable netctl-auto@wifi_device_name.service
 ```
+**Bluetooth**
+```
+sudo pacman -S bluez bluez-utils blueberry
+sudo systemctl enable bluetooth.service
+```
+**Audio**
+```
+sudo pacman -S alsa-utils
+sudo gpasswd -a *username* audio
+```
+alsamixer -> config mixer
 
+I've also needed pulseaudio for using browser audio
+And pulse mixer to controll it trough there 
