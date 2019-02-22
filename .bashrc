@@ -18,3 +18,4 @@ if [ "$EUID" -ne 0 ]
 fi
 
 [ -f "$HOME/.config/aliasrc" ] && source "$HOME/.config/aliasrc"
+[ -f "$HOME/.config/shortcutsrc" ] && source "$HOME/.config/shortcutsrc"
