@@ -61,6 +61,7 @@ pacman -Syu xf86-input-synaptics
 
 **4 multiple Monitors**
 arandr (gui for "xarandr(?")
+copy configuration into .config/i3/config
 
 **Torrents**
 install transmission-daemon
